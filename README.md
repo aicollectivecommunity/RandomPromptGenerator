@@ -1,5 +1,6 @@
 
-![Samples](https://github.com/user-attachments/assets/f5b0bda3-db43-45aa-bfb4-0c2641e08416)
+![image (18)](https://github.com/user-attachments/assets/914a8125-2ab7-4885-9b46-9b047e6df250)
+
 
 18/11/2024
 
@@ -14,5 +15,28 @@ See article: https://medium.com/@nicolas-martin/random-generative-ai-art-for-end
 - Generate a picture of takeover, jealous, gamy, ritzy, filthy, care, during a heatwave, eye level, medium shot, f/2.8, in a moody cartoon style.
 - Generate a picture of nudge, foamy, helpless, garrulous, multiply, moody, extreme wide shot, in a serene ultra realistic style.
 - Generate a picture of interviewer, longing, resonant, dynamic, sweat, minimalist, moody, in a mysterious manga style.
+
+# Guide:
+Prerequisites: Python 3.8 or superior.
+Install the wonderwords library:
+!pip install wonderwords
+
+Download and run the RandomGenerator.ipynb notebook.
+
+Use the generate_multiple_prompts function as you want:
+
+generate_multiple_prompts(
+    color=True,                       # Use of camera color functions (black and white, sepia, etc.).
+    count=5,                          # 1-5: controls number of elements.
+    complexity=4,                     # 1-10: controls the prompt complexity (with different features)
+    #semantic_field='prehistoric',    # Optional theme filter.
+    randomness=0.8                    # 0-1: controls how experimental combinations can be
+    
+)
+
+
+
+
+Google Collab link: https://colab.research.google.com/drive/1O-kzSiTGA-TstcujqKmL5WJ7Lco_eHWb?usp=sharing 
 
 Author: Nicolas MARTIN.
