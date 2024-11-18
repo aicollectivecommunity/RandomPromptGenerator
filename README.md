@@ -18,12 +18,15 @@ See article: https://medium.com/@nicolas-martin/random-generative-ai-art-for-end
 # Guide:
 Prerequisites: Python 3.8 or superior.
 Install the wonderwords library:
-!pip install wonderwords
+```
+pip install wonderwords
+```
 
 Download and run the RandomGenerator.ipynb notebook.
 
 Use the generate_multiple_prompts function as you want:
 
+```python
 generate_multiple_prompts(
     color=True,                       # Use of camera color functions (black and white, sepia, etc.).
     count=5,                          # 1-5: controls number of elements.
@@ -32,7 +35,7 @@ generate_multiple_prompts(
     randomness=0.8                    # 0-1: controls how experimental combinations can be
     
 )
-
+```
 
 
 
