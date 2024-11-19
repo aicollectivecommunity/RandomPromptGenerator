@@ -16,6 +16,12 @@ See article: https://pub.towardsai.net/random-generative-ai-art-for-endless-crea
 - Generate a picture of interviewer, longing, resonant, dynamic, sweat, minimalist, moody, in a mysterious manga style.
 
 # Guide:
+Use the app downloading the exe file.
+![example](https://github.com/user-attachments/assets/8e03498b-b9dc-402c-a698-b5ccbb10ad9e)
+
+
+Or use the Jupyter Notebook
+
 Prerequisites: Python 3.8 or superior.
 Install the wonderwords library:
 ```
