@@ -16,11 +16,13 @@ See article: https://pub.towardsai.net/random-generative-ai-art-for-endless-crea
 - Generate a picture of interviewer, longing, resonant, dynamic, sweat, minimalist, moody, in a mysterious manga style.
 
 # Guide:
-Use the app downloading the exe file.
+There are 3 options:
+
+1- Download randompromptgenerator.exe and run the file.
 ![example](https://github.com/user-attachments/assets/8e03498b-b9dc-402c-a698-b5ccbb10ad9e)
 
 
-Or use the Jupyter Notebook
+2- Use the Jupyter Notebook RandomPromptGenerator.ipynb.
 
 Prerequisites: Python 3.8 or superior.
 Install the wonderwords library:
@@ -34,17 +36,22 @@ Use the generate_multiple_prompts function as you want:
 
 ```python
 generate_multiple_prompts(
+    category = "video",               # Main category.
+    subject="hamster",                # (Optional) subject.
+    plural=False,                     # (Optional) Add an 's' for plural subjects.
     color=True,                       # Use of camera color functions (black and white, sepia, etc.).
-    count=5,                          # 1-5: controls number of elements.
-    complexity=4,                     # 1-10: controls the prompt complexity (with different features)
-    #semantic_field='prehistoric',    # Optional theme filter.
+    count=2,                          # 1-5: controls number of elements.
+    complexity=6,                     # 1-10: controls the prompt complexity (with different features)
+    theme='prehistoric',              # (Optional) theme filter.
     randomness=0.8                    # 0-1: controls how experimental combinations can be
-    
+
 )
 ```
 
 
 
-Google Collab link: https://colab.research.google.com/drive/1O-kzSiTGA-TstcujqKmL5WJ7Lco_eHWb?usp=sharing 
+3- Use it in Google Collab 
+
+link: https://colab.research.google.com/drive/1O-kzSiTGA-TstcujqKmL5WJ7Lco_eHWb?usp=sharing 
 
 Author: Nicolas MARTIN.
